@@ -1,0 +1,4 @@
+#versions as of 06/25/2024
+anthropic
+openai
+python-dotenv

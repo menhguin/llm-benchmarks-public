@@ -1,0 +1,55 @@
+Web search unit test results
+Model: gpt-3.5-turbo
+API Source: OpenAI
+Web Search Tool Description:
+Search the internet for up-to-date information..
+"
+Web search unit test results for model gpt-3.5-turbo (OpenAI):"
+Comments: 
+Overall Precision: 100.00% (11/11)
+Overall Recall: 100.00% (11/11)
+Overall Success rate: 100.00% (11/11)
+Results written to web_search/results/web_search_results_20240716_180722.csv
+
+Score Level Statistics
+Score,Total,TP,FP,TN,FN,Precision,Recall,Success Rate
+-5,0,0,0,0,0,0.00%,0.00%,0.00%
+-4,0,0,0,0,0,0.00%,0.00%,0.00%
+-3,0,0,0,0,0,0.00%,0.00%,0.00%
+-2,0,0,0,0,0,0.00%,0.00%,0.00%
+-1,0,0,0,0,0,0.00%,0.00%,0.00%
+0,0,0,0,0,0,0.00%,0.00%,0.00%
+1,0,0,0,0,0,0.00%,0.00%,0.00%
+2,0,0,0,0,0,0.00%,0.00%,0.00%
+3,2,2,0,0,0,100.00%,100.00%,100.00%
+4,4,4,0,0,0,100.00%,100.00%,100.00%
+5,5,5,0,0,0,100.00%,100.00%,100.00%
+
+result,score,web_search_expected,web_search_performed,test_question,api_response,search_query,context,model,api_source,comments
+TP,5.00,True,True,Does New York City have any lockdown or quarantine restrictions,,New York City lockdown or quarantine restrictions,"USER_MESSAGE: Hey Baymax, I'm planning a trip.
+AGENT_MESSAGE: That sounds exciting! Where are you planning to go?
+USER_MESSAGE: I'm thinking about visiting New York City.
+AGENT_MESSAGE: New York City is a great destination! Is there anything specific you'd like to know to help with your planning?",gpt-3.5-turbo,OpenAI,
+TP,5.00,True,True,What's the current stock price of Apple?,,current stock price of Apple,"USER_MESSAGE: Hi Baymax, I'm thinking about investing.
+AGENT_MESSAGE: That's great! Investing can be a smart financial decision. Is there any particular area or company you're interested in?
+USER_MESSAGE: I was considering tech companies, maybe Apple.
+AGENT_MESSAGE: Apple is certainly a popular choice in the tech sector. Would you like to know more about their current stock performance?",gpt-3.5-turbo,OpenAI,
+TP,5.00,True,True,Any updates on FDA drug approval regulation?,,FDA drug approval regulation updates,"USER_MESSAGE: Hi Baymax, let's talk about healthcare policy.
+AGENT_MESSAGE: Certainly! Health policy is a fascinating and rapidly evolving field. Is there a specific aspect of tech policy you're interested in discussing?
+USER_MESSAGE: I'm curious about the current state of FDA drug approval regulation.
+AGENT_MESSAGE: FDA drug approval regulation is indeed a hot topic in health policy. Would you like me to look up the most recent developments in this area?",gpt-3.5-turbo,OpenAI,
+TP,5.00,True,True,What's the exchange rate for dollars to euros?,,exchange rate for dollars to euros,"USER_MESSAGE: Hi Baymax, I'm traveling to Europe next week.
+AGENT_MESSAGE: That sounds exciting! Is there anything specific you'd like to know about your trip to Europe?",gpt-3.5-turbo,OpenAI,
+TP,5.00,True,True,Any dentists there open on the weekends?,,dentists open on weekends near me,"USER_MESSAGE: Baymax, I need to schedule a new dental appointment while I'm in LA.",gpt-3.5-turbo,OpenAI,
+TP,4.00,True,True,What movies are coming out soon?,,upcoming movie releases,"USER_MESSAGE: Hey Baymax, I'm bored. Any entertainment suggestions?",gpt-3.5-turbo,OpenAI,
+TP,4.00,True,True,Got any healthy veggie lasagna recipes?,,healthy vegetable lasagna recipe,"USER_MESSAGE: Baymax, I'm thinking about cooking something new tonight.",gpt-3.5-turbo,OpenAI,
+TP,4.00,True,True,What's new with the Mars rover?,,latest news about Mars rover,"USER_MESSAGE: Hey Baymax, let's talk about space exploration.
+AGENT_MESSAGE: Space exploration is a fascinating topic! Is there a particular aspect or mission you're interested in?",gpt-3.5-turbo,OpenAI,
+TP,4.00,True,True,What are the popular books this year?,,popular books 2021,"USER_MESSAGE: Hi Baymax, I'm looking for some reading recommendations.
+AGENT_MESSAGE: That's great! Reading is a wonderful pastime. Do you have any particular genres or themes in mind?
+USER_MESSAGE: Not really, I'm open to anything that's good.",gpt-3.5-turbo,OpenAI,
+TP,3.00,True,True,What are the common symptoms of hay fever?,,common symptoms of hay fever,"USER_MESSAGE: Baymax, I think I might have allergies.
+AGENT_MESSAGE: I'm sorry to hear that. Allergies can be uncomfortable. What makes you think you might have allergies?
+USER_MESSAGE: My nose is runny and I've been sneezing a lot lately.",gpt-3.5-turbo,OpenAI,
+TP,3.00,True,True,How do I grow more succulents from the ones I have?,,how to propagate succulents,"USER_MESSAGE: Baymax, I'm getting into gardening.
+AGENT_MESSAGE: That's a great hobby! Gardening can be very rewarding. What kind of plants are you interested in?",gpt-3.5-turbo,OpenAI,

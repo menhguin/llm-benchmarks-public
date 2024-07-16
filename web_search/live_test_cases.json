@@ -1,0 +1,225 @@
+[
+  {
+    "chat_id": "b2c3d4e5-6f7g-8h9i-10j1-1k12l13m14n",
+    "function_call_event_id": "o15p16q17-r18s-19t20-u21v-w22x23y24z25",
+    "function_call_text": "{\"name\":\"web_search\",\"parameters\":\"{\\\"query\\\": \\\"visitor quarantine guidelines New York City july 2024\\\"}\",\"tool_call_id\":\"toolu_26A27B28C29D30E31F32G\",\"type\":\"tool_call\",\"tool_type\":\"builtin\",\"response_required\":false}",
+    "triggering_user_message": "Does New York City have any lockdown or quarantine restrictions",
+    "prior_messages": [
+      {
+        "event_type": "USER_MESSAGE",
+        "message_text": "Hey Baymax, I'm planning a trip.",
+        "event_timestamp": "2024-07-16 14:45:00.000000 UTC"
+      },
+      {
+        "event_type": "AGENT_MESSAGE",
+        "message_text": "That sounds exciting! Where are you planning to go?",
+        "event_timestamp": "2024-07-16 14:45:02.000000 UTC"
+      },
+      {
+        "event_type": "USER_MESSAGE",
+        "message_text": "I'm thinking about visiting New York City.",
+        "event_timestamp": "2024-07-16 14:45:10.000000 UTC"
+      },
+      {
+        "event_type": "AGENT_MESSAGE",
+        "message_text": "New York City is a great destination! Is there anything specific you'd like to know to help with your planning?",
+        "event_timestamp": "2024-07-16 14:45:12.000000 UTC"
+      }
+    ]
+  },
+  {
+    "chat_id": "a1b2c3d4-5e6f-7g8h-9i10-j11k12l13m14",
+    "function_call_event_id": "n15o16p17-q18r-19s20-t21u-v22w23x24y25",
+    "function_call_text": "{\"name\":\"web_search\",\"parameters\":\"{\\\"query\\\": \\\"current stock price of Apple Inc\\\"}\",\"tool_call_id\":\"toolu_26Z27A28B29C30D31E32F\",\"type\":\"tool_call\",\"tool_type\":\"builtin\",\"response_required\":false}",
+    "triggering_user_message": "What's the current stock price of Apple?",
+    "prior_messages": [
+      {
+        "event_type": "USER_MESSAGE",
+        "message_text": "Hi Baymax, I'm thinking about investing.",
+        "event_timestamp": "2024-07-16 09:30:00.000000 UTC"
+      },
+      {
+        "event_type": "AGENT_MESSAGE",
+        "message_text": "That's great! Investing can be a smart financial decision. Is there any particular area or company you're interested in?",
+        "event_timestamp": "2024-07-16 09:30:02.000000 UTC"
+      },
+      {
+        "event_type": "USER_MESSAGE",
+        "message_text": "I was considering tech companies, maybe Apple.",
+        "event_timestamp": "2024-07-16 09:30:10.000000 UTC"
+      },
+      {
+        "event_type": "AGENT_MESSAGE",
+        "message_text": "Apple is certainly a popular choice in the tech sector. Would you like to know more about their current stock performance?",
+        "event_timestamp": "2024-07-16 09:30:12.000000 UTC"
+      }
+    ]
+  },
+  {
+    "chat_id": "c3d4e5f6-7g8h-9i10j-11k1-2l13m14n15o",
+    "function_call_event_id": "p16q17r18-s19t-20u21-v22w-x23y24z25a26",
+    "function_call_text": "{\"name\":\"web_search\",\"parameters\":\"{\\\"query\\\": \\\"latest news on FDA drug approval regulation\\\"}\",\"tool_call_id\":\"toolu_27B28C29D30E31F32G33H\",\"type\":\"tool_call\",\"tool_type\":\"builtin\",\"response_required\":false}",
+    "triggering_user_message": "Any updates on FDA drug approval regulation?",
+    "prior_messages": [
+      {
+        "event_type": "USER_MESSAGE",
+        "message_text": "Hi Baymax, let's talk about healthcare policy.",
+        "event_timestamp": "2024-07-16 18:20:00.000000 UTC"
+      },
+      {
+        "event_type": "AGENT_MESSAGE",
+        "message_text": "Certainly! Health policy is a fascinating and rapidly evolving field. Is there a specific aspect of tech policy you're interested in discussing?",
+        "event_timestamp": "2024-07-16 18:20:02.000000 UTC"
+      },
+      {
+        "event_type": "USER_MESSAGE",
+        "message_text": "I'm curious about the current state of FDA drug approval regulation.",
+        "event_timestamp": "2024-07-16 18:20:10.000000 UTC"
+      },
+      {
+        "event_type": "AGENT_MESSAGE",
+        "message_text": "FDA drug approval regulation is indeed a hot topic in health policy. Would you like me to look up the most recent developments in this area?",
+        "event_timestamp": "2024-07-16 18:20:12.000000 UTC"
+      }
+    ]
+  },
+  {
+    "chat_id": "d4e5f6g7-8h9i-10j11-k12l-m13n14o15p16",
+    "function_call_event_id": "q17r18s19-t20u-21v22-w23x-y24z25a26b27",
+    "function_call_text": "{\"name\":\"web_search\",\"parameters\":\"{\\\"query\\\": \\\"upcoming movie releases 2024\\\"}\",\"tool_call_id\":\"toolu_28C29D30E31F32G33H34I\",\"type\":\"tool_call\",\"tool_type\":\"builtin\",\"response_required\":false}",
+    "triggering_user_message": "What movies are coming out soon?",
+    "prior_messages": [
+      {
+        "event_type": "USER_MESSAGE",
+        "message_text": "Hey Baymax, I'm bored. Any entertainment suggestions?",
+        "event_timestamp": "2024-07-16 20:00:00.000000 UTC"
+      }
+    ]
+  },
+  {
+    "chat_id": "e5f6g7h8-9i10-j11k1-2l13-m14n15o16p17",
+    "function_call_event_id": "r18s19t20-u21v-22w23-x24y-z25a26b27c28",
+    "function_call_text": "{\"name\":\"web_search\",\"parameters\":\"{\\\"query\\\": \\\"symptoms of seasonal allergies\\\"}\",\"tool_call_id\":\"toolu_29D30E31F32G33H34I35J\",\"type\":\"tool_call\",\"tool_type\":\"builtin\",\"response_required\":false}",
+    "triggering_user_message": "What are the common symptoms of hay fever?",
+    "prior_messages": [
+      {
+        "event_type": "USER_MESSAGE",
+        "message_text": "Baymax, I think I might have allergies.",
+        "event_timestamp": "2024-07-17 09:15:00.000000 UTC"
+      },
+      {
+        "event_type": "AGENT_MESSAGE",
+        "message_text": "I'm sorry to hear that. Allergies can be uncomfortable. What makes you think you might have allergies?",
+        "event_timestamp": "2024-07-17 09:15:02.000000 UTC"
+      },
+      {
+        "event_type": "USER_MESSAGE",
+        "message_text": "My nose is runny and I've been sneezing a lot lately.",
+        "event_timestamp": "2024-07-17 09:15:10.000000 UTC"
+      }
+    ]
+  },
+  {
+    "chat_id": "f6g7h8i9-10j11-k12l1-3m14-n15o16p17q18",
+    "function_call_event_id": "s19t20u21-v22w-23x24-y25z-a26b27c28d29",
+    "function_call_text": "{\"name\":\"web_search\",\"parameters\":\"{\\\"query\\\": \\\"current exchange rate USD to EUR\\\"}\",\"tool_call_id\":\"toolu_30E31F32G33H34I35J36K\",\"type\":\"tool_call\",\"tool_type\":\"builtin\",\"response_required\":false}",
+    "triggering_user_message": "What's the exchange rate for dollars to euros?",
+    "prior_messages": [
+      {
+        "event_type": "USER_MESSAGE",
+        "message_text": "Hi Baymax, I'm traveling to Europe next week.",
+        "event_timestamp": "2024-07-17 14:30:00.000000 UTC"
+      },
+      {
+        "event_type": "AGENT_MESSAGE",
+        "message_text": "That sounds exciting! Is there anything specific you'd like to know about your trip to Europe?",
+        "event_timestamp": "2024-07-17 14:30:02.000000 UTC"
+      }
+    ]
+  },
+  {
+    "chat_id": "g7h8i9j10-11k12-l13m1-4n15-o16p17q18r19",
+    "function_call_event_id": "t20u21v22-w23x-24y25-z26a-b27c28d29e30",
+    "function_call_text": "{\"name\":\"web_search\",\"parameters\":\"{\\\"query\\\": \\\"healthy recipe for vegetarian lasagna\\\"}\",\"tool_call_id\":\"toolu_31F32G33H34I35J36K37L\",\"type\":\"tool_call\",\"tool_type\":\"builtin\",\"response_required\":false}",
+    "triggering_user_message": "Got any healthy veggie lasagna recipes?",
+    "prior_messages": [
+      {
+        "event_type": "USER_MESSAGE",
+        "message_text": "Baymax, I'm thinking about cooking something new tonight.",
+        "event_timestamp": "2024-07-17 18:45:00.000000 UTC"
+      }
+    ]
+  },
+  {
+    "chat_id": "h8i9j10k11-12l13-m14n1-5o16-p17q18r19s20",
+    "function_call_event_id": "u21v22w23-x24y-25z26-a27b-c28d29e30f31",
+    "function_call_text": "{\"name\":\"web_search\",\"parameters\":\"{\\\"query\\\": \\\"latest Mars rover discoveries\\\"}\",\"tool_call_id\":\"toolu_32G33H34I35J36K37L38M\",\"type\":\"tool_call\",\"tool_type\":\"builtin\",\"response_required\":false}",
+    "triggering_user_message": "What's new with the Mars rover?",
+    "prior_messages": [
+      {
+        "event_type": "USER_MESSAGE",
+        "message_text": "Hey Baymax, let's talk about space exploration.",
+        "event_timestamp": "2024-07-18 10:00:00.000000 UTC"
+      },
+      {
+        "event_type": "AGENT_MESSAGE",
+        "message_text": "Space exploration is a fascinating topic! Is there a particular aspect or mission you're interested in?",
+        "event_timestamp": "2024-07-18 10:00:02.000000 UTC"
+      }
+    ]
+  },
+  {
+    "chat_id": "i9j10k11l12-13m14-n15o1-6p17-q18r19s20t21",
+    "function_call_event_id": "v22w23x24-y25z-26a27-b28c-d29e30f31g32",
+    "function_call_text": "{\"name\":\"web_search\",\"parameters\":\"{\\\"query\\\": \\\"dental offices in Los Angeles open on the weekends\\\"}\",\"tool_call_id\":\"toolu_33H34I35J36K37L38M39N\",\"type\":\"tool_call\",\"tool_type\":\"builtin\",\"response_required\":false}",
+    "triggering_user_message": "Any dentists there open on the weekends?",
+    "prior_messages": [
+      {
+        "event_type": "USER_MESSAGE",
+        "message_text": "Baymax, I need to schedule a new dental appointment while I'm in LA.",
+        "event_timestamp": "2024-07-18 15:30:00.000000 UTC"
+      }
+    ]
+  },
+  {
+    "chat_id": "j10k11l12m13-14n15-o16p1-7q18-r19s20t21u22",
+    "function_call_event_id": "w23x24y25-z26a-27b28-c29d-e30f31g32h33",
+    "function_call_text": "{\"name\":\"web_search\",\"parameters\":\"{\\\"query\\\": \\\"best-selling books of 2024 so far\\\"}\",\"tool_call_id\":\"toolu_34I35J36K37L38M39N40O\",\"type\":\"tool_call\",\"tool_type\":\"builtin\",\"response_required\":false}",
+    "triggering_user_message": "What are the popular books this year?",
+    "prior_messages": [
+      {
+        "event_type": "USER_MESSAGE",
+        "message_text": "Hi Baymax, I'm looking for some reading recommendations.",
+        "event_timestamp": "2024-07-18 20:15:00.000000 UTC"
+      },
+      {
+        "event_type": "AGENT_MESSAGE",
+        "message_text": "That's great! Reading is a wonderful pastime. Do you have any particular genres or themes in mind?",
+        "event_timestamp": "2024-07-18 20:15:02.000000 UTC"
+      },
+      {
+        "event_type": "USER_MESSAGE",
+        "message_text": "Not really, I'm open to anything that's good.",
+        "event_timestamp": "2024-07-18 20:15:10.000000 UTC"
+      }
+    ]
+  },
+  {
+    "chat_id": "k11l12m13n14-15o16-p17q1-8r19-s20t21u22v23",
+    "function_call_event_id": "x24y25z26-a27b-28c29-d30e-f31g32h33i34",
+    "function_call_text": "{\"name\":\"web_search\",\"parameters\":\"{\\\"query\\\": \\\"how to propagate succulents\\\"}\",\"tool_call_id\":\"toolu_35J36K37L38M39N40O41P\",\"type\":\"tool_call\",\"tool_type\":\"builtin\",\"response_required\":false}",
+    "triggering_user_message": "How do I grow more succulents from the ones I have?",
+    "prior_messages": [
+      {
+        "event_type": "USER_MESSAGE",
+        "message_text": "Baymax, I'm getting into gardening.",
+        "event_timestamp": "2024-07-19 09:45:00.000000 UTC"
+      },
+      {
+        "event_type": "AGENT_MESSAGE",
+        "message_text": "That's a great hobby! Gardening can be very rewarding. What kind of plants are you interested in?",
+        "event_timestamp": "2024-07-19 09:45:02.000000 UTC"
+      }
+    ]
+  }
+]
