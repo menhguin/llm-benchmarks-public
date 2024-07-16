@@ -52,7 +52,7 @@ This project is structured into two main components:
    ```
 
 2. To add a new dataset:
-   - Add a new Json with the same format as the current one. Note that this unit test natively supports multi-turn message log input via both Anthropic and OpenAI APIs.
+   - Add a new Json with the same format as the current one. Currently the filepath just detects whatever file in the project folder is named _live_test_cases.json_. Note that this unit test natively supports multi-turn message log input via both Anthropic and OpenAI APIs.
    - Run `python chat_ranker/test_case_ranker.py`.
 
 3. To add a new model or system prompt:
