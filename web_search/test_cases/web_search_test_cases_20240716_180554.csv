@@ -1,0 +1,28 @@
+web_search_expected,follow_up_expected,Score,triggering_user_message,context,function_call_text
+True,False,5.00,Does New York City have any lockdown or quarantine restrictions,"USER_MESSAGE: Hey Baymax, I'm planning a trip.
+AGENT_MESSAGE: That sounds exciting! Where are you planning to go?
+USER_MESSAGE: I'm thinking about visiting New York City.
+AGENT_MESSAGE: New York City is a great destination! Is there anything specific you'd like to know to help with your planning?","{""name"":""web_search"",""parameters"":""{\""query\"": \""visitor quarantine guidelines New York City july 2024\""}"",""tool_call_id"":""toolu_26A27B28C29D30E31F32G"",""type"":""tool_call"",""tool_type"":""builtin"",""response_required"":false}"
+True,False,5.00,What's the current stock price of Apple?,"USER_MESSAGE: Hi Baymax, I'm thinking about investing.
+AGENT_MESSAGE: That's great! Investing can be a smart financial decision. Is there any particular area or company you're interested in?
+USER_MESSAGE: I was considering tech companies, maybe Apple.
+AGENT_MESSAGE: Apple is certainly a popular choice in the tech sector. Would you like to know more about their current stock performance?","{""name"":""web_search"",""parameters"":""{\""query\"": \""current stock price of Apple Inc\""}"",""tool_call_id"":""toolu_26Z27A28B29C30D31E32F"",""type"":""tool_call"",""tool_type"":""builtin"",""response_required"":false}"
+True,False,5.00,Any updates on FDA drug approval regulation?,"USER_MESSAGE: Hi Baymax, let's talk about healthcare policy.
+AGENT_MESSAGE: Certainly! Health policy is a fascinating and rapidly evolving field. Is there a specific aspect of tech policy you're interested in discussing?
+USER_MESSAGE: I'm curious about the current state of FDA drug approval regulation.
+AGENT_MESSAGE: FDA drug approval regulation is indeed a hot topic in health policy. Would you like me to look up the most recent developments in this area?","{""name"":""web_search"",""parameters"":""{\""query\"": \""latest news on FDA drug approval regulation\""}"",""tool_call_id"":""toolu_27B28C29D30E31F32G33H"",""type"":""tool_call"",""tool_type"":""builtin"",""response_required"":false}"
+True,False,5.00,What's the exchange rate for dollars to euros?,"USER_MESSAGE: Hi Baymax, I'm traveling to Europe next week.
+AGENT_MESSAGE: That sounds exciting! Is there anything specific you'd like to know about your trip to Europe?","{""name"":""web_search"",""parameters"":""{\""query\"": \""current exchange rate USD to EUR\""}"",""tool_call_id"":""toolu_30E31F32G33H34I35J36K"",""type"":""tool_call"",""tool_type"":""builtin"",""response_required"":false}"
+True,False,5.00,Any dentists there open on the weekends?,"USER_MESSAGE: Baymax, I need to schedule a new dental appointment while I'm in LA.","{""name"":""web_search"",""parameters"":""{\""query\"": \""dental offices in Los Angeles open on the weekends\""}"",""tool_call_id"":""toolu_33H34I35J36K37L38M39N"",""type"":""tool_call"",""tool_type"":""builtin"",""response_required"":false}"
+True,False,4.00,What movies are coming out soon?,"USER_MESSAGE: Hey Baymax, I'm bored. Any entertainment suggestions?","{""name"":""web_search"",""parameters"":""{\""query\"": \""upcoming movie releases 2024\""}"",""tool_call_id"":""toolu_28C29D30E31F32G33H34I"",""type"":""tool_call"",""tool_type"":""builtin"",""response_required"":false}"
+True,False,4.00,Got any healthy veggie lasagna recipes?,"USER_MESSAGE: Baymax, I'm thinking about cooking something new tonight.","{""name"":""web_search"",""parameters"":""{\""query\"": \""healthy recipe for vegetarian lasagna\""}"",""tool_call_id"":""toolu_31F32G33H34I35J36K37L"",""type"":""tool_call"",""tool_type"":""builtin"",""response_required"":false}"
+True,False,4.00,What's new with the Mars rover?,"USER_MESSAGE: Hey Baymax, let's talk about space exploration.
+AGENT_MESSAGE: Space exploration is a fascinating topic! Is there a particular aspect or mission you're interested in?","{""name"":""web_search"",""parameters"":""{\""query\"": \""latest Mars rover discoveries\""}"",""tool_call_id"":""toolu_32G33H34I35J36K37L38M"",""type"":""tool_call"",""tool_type"":""builtin"",""response_required"":false}"
+True,False,4.00,What are the popular books this year?,"USER_MESSAGE: Hi Baymax, I'm looking for some reading recommendations.
+AGENT_MESSAGE: That's great! Reading is a wonderful pastime. Do you have any particular genres or themes in mind?
+USER_MESSAGE: Not really, I'm open to anything that's good.","{""name"":""web_search"",""parameters"":""{\""query\"": \""best-selling books of 2024 so far\""}"",""tool_call_id"":""toolu_34I35J36K37L38M39N40O"",""type"":""tool_call"",""tool_type"":""builtin"",""response_required"":false}"
+True,False,3.00,What are the common symptoms of hay fever?,"USER_MESSAGE: Baymax, I think I might have allergies.
+AGENT_MESSAGE: I'm sorry to hear that. Allergies can be uncomfortable. What makes you think you might have allergies?
+USER_MESSAGE: My nose is runny and I've been sneezing a lot lately.","{""name"":""web_search"",""parameters"":""{\""query\"": \""symptoms of seasonal allergies\""}"",""tool_call_id"":""toolu_29D30E31F32G33H34I35J"",""type"":""tool_call"",""tool_type"":""builtin"",""response_required"":false}"
+True,False,3.00,How do I grow more succulents from the ones I have?,"USER_MESSAGE: Baymax, I'm getting into gardening.
+AGENT_MESSAGE: That's a great hobby! Gardening can be very rewarding. What kind of plants are you interested in?","{""name"":""web_search"",""parameters"":""{\""query\"": \""how to propagate succulents\""}"",""tool_call_id"":""toolu_35J36K37L38M39N40O41P"",""type"":""tool_call"",""tool_type"":""builtin"",""response_required"":false}"
