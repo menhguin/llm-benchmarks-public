@@ -66,7 +66,7 @@ web_search_tool = {
     "type": "function",
     "function": {
         "name": "web_search",
-        "description": "Search the internet for up-to-date information using the Vespa search enginer.",
+        "description": "Search the internet for up-to-date information using the Vespa search engine.",
         "parameters": {
             "type": "object",
             "properties": {
